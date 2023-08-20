@@ -120,3 +120,22 @@ ul li a {
     height: 400px;
     border-radius: 4px;
 }
+/* Maps section */
+.maps-section {
+    height: 90vw;
+    background-color: #2F4858;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.maps-section h1 {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.map {
+    width: 70%;
+    height: 35%;
+}
