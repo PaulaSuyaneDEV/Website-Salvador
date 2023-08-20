@@ -1,0 +1,75 @@
+/* Navbar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+header {
+    height: 10vh;
+    background-color: #F26419;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    color: white;
+    text-transform: uppercase;
+    position: fixed;
+    width: 100vw;
+}  
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+   
+} 
+ul li a {
+    color: white; 
+    text-decoration: none;
+
+}
+/* Fim da nav*/
+/*inicio da home */
+.home {
+background-image: url(/img/faroldabarra.jpeg);
+height: 90vh;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.home-title {
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    padding: 70px 0 0 70px;
+}
+/* inicio da section */
+.history-section {
+    height: 90vh;
+    background-color: #2F4858;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px; 
+}
+.history-left {
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center; 
+color: white;
+
+} 
+.history-right {
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center; 
+}
+.history-right img {
+    width: 100%;
+    border-radius: 4px;
+
+} 
