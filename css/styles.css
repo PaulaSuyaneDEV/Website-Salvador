@@ -8,6 +8,19 @@
 }
 
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F26419;
+    border-radius: 10px;
+}
+
 .title {
     text-transform: uppercase;
     color: #fff;
