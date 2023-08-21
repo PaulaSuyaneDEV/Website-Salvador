@@ -1,0 +1,70 @@
+/* Media Query Para telas Medias e Pequenas */
+@media screen and (max-width: 900px) {
+    /* Navbar */
+    nav {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+        cursor: pointer;
+    }
+
+
+    /* container de historia */
+    .history-container {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .history-left {
+        width: 100%;
+    }
+
+    .history-right {
+        width: 100%;
+    }
+
+
+}
+
+
+/* Media Query Para telas Pequenas */
+@media  screen and (max-width: 768px) {
+    .menu-mobile {
+        width: 30px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .home-title {
+        padding: 200px 0 0 30px;
+        font-size: 40px;
+    }
+   .img-container {
+    flex-direction: column;
+   }
+   .img-container img {
+    width: 100%;
+   }
+   .map {
+    height: 50%;
+    width: 100%;
+   }
+   .food-img {
+    flex-direction: column;
+   }
+   .food-img img {
+    width: 100%;
+   }
+   footer {
+    flex-direction: column;
+    min-height: 15vh;
+   }
+}

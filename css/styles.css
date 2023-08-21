@@ -74,7 +74,7 @@ ul li a:hover {
 
 /* inicio da section */
 .history-section {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #2F4858;
     width: 100%;
     align-items: center;
@@ -82,6 +82,7 @@ ul li a:hover {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+    padding-bottom: 15px;
 }
 
 .history-left {
@@ -121,13 +122,14 @@ ul li a:hover {
 
 .tourist-section {
     background-color: #f6ae2d;
-    height: 100vh;
+    min-height: 100vh;
     padding: 80px 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
     color: #fff;
+    gap: 15px;
 }
 
 .tourist-title {
@@ -155,6 +157,8 @@ ul li a:hover {
     align-items: center;
     flex-direction: column;
     padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .maps-section h1 {
@@ -165,20 +169,21 @@ ul li a:hover {
     padding-top: 10px;
     width: 70%;
     height: 70%;
+
 }
 
 /*Food section */
 
 .food-section {
     background-color: #33658A;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     gap: 50px;
-    padding: 0 30px;
+    padding: 10px 30px;
     color: #fff;
 
 }
@@ -225,54 +230,3 @@ footer {
 }
 
 
-/* Media Query Para telas Medias e Pequenas */
-@media screen and (max-width: 900px) {
-    /* Navbar */
-    nav {
-        display: none;
-    }
-
-    .menu-mobile {
-        display: block;
-        cursor: pointer;
-    }
-
-
-    /* container de historia */
-    .history-container {
-        flex-direction: column-reverse;
-        gap: 20px;
-    }
-
-    .history-left {
-        width: 100%;
-    }
-
-    .history-right {
-        width: 100%;
-    }
-
-
-}
-
-
-/* Media Query Para telas Pequenas */
-@media  screen and (max-width: 768px) {
-    .menu-mobile {
-        width: 30px;
-    }
-
-    .logo {
-        font-size: 24px;
-    }
-
-    .title {
-        font-size: 24px;
-    }
-
-    .home-title {
-        padding: 200px 0 0 30px;
-        font-size: 40px;
-    }
-
-}
