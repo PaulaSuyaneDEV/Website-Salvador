@@ -24,6 +24,10 @@ header {
     width: 100vw;
 }
 
+.menu-mobile {
+    display: none;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -49,6 +53,7 @@ ul li a:hover {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .home-title {
@@ -223,4 +228,35 @@ footer {
 
 .social-medias img {
     width: 20px;
+}
+
+
+/* Media Query Para telas Medias e Pequenas */
+@media screen and (max-width: 900px) {
+    /* Navbar */
+    nav {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+        cursor: pointer;
+    }
+
+
+    /* container de historia */
+    .history-container {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .history-left {
+        width: 100%;
+    }
+
+    .history-right {
+        width: 100%;
+    }
+
+
 }
